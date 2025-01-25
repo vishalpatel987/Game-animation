@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #000;
+}
+
+.grid-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+}
+
+.cell {
+  width: 20px;
+  height: 20px;
+  background-color:black;
+  border: 1px solid gray;
+  transition: background-color 0.3s ease;
+}
+
+.cell.active {
+  animation: pulse 0.1s infinite;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    transform: scale(1);
+  }
+}
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+   
